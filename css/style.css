@@ -1,0 +1,45 @@
+body {
+   background-color: antiquewhite;
+}
+
+#nav-bar {
+   position: fixed;
+}
+
+#header {
+   display: flex;
+   flex-direction: row;
+}
+
+.logo_box {
+   display: flex;
+   flex-direction: row;
+
+}
+
+ul {
+   display: flex;
+   flex-direction: row;
+   color: black;
+}
+
+li {
+   padding: 20px;
+   list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+
+}
+
+.main-body {
+   display: flex;
+
+}
+
+@media only screen and (max-width: 600px) {
+   body {
+      background-color: lightblue;
+   }
+}
